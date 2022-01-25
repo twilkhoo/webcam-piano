@@ -44,8 +44,6 @@ while True:
                     #cv2.putText(img, "touch", (10,250), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 0, 255), 3)
                     print('touch')
 
-
-
             mpDraw.draw_landmarks(img, handLms)
 
     
